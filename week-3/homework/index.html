@@ -26,28 +26,30 @@
          color: white;
          text-shadow: 3px 3px 3px #666666;
          padding-right: 60px;
+         font-family: Lucida;
        }
        main {
          width: 600px;
          margin-left: auto;
          margin-right: auto;
-         border-style: solid;
-         border-color: auto;
-         border-width: 2px 1px;
+         border-width: 1px 1px;
          padding: 10px;
          margin-bottom: 50px;
          background-color: white;
          box-sizing: border-box;
          margin: 50px auto;
+         border-radius: 10px;
        }
        button {
-         padding: 10px 16px;
+         padding: 10px 20px;
          float:right;
          text-decoration: none;
-         border-radius: 3px;
+         border-radius: 5px;
          background-color: #0000CC;
          color: white;
-         border-radius: 10px;
+        }
+        a {
+          color: white;
         }
        Footer {
          width: 200px;
@@ -58,15 +60,15 @@
        }
     </style>
   </head>
- <header>
+<header>
   <img src="http://cloud.avandamiri.com/image/423B1n2p2v0U/acme-corp.jpg" alt="ACME logo" />
   <table>
   <tr>
   <th colspan="3" >
-    About ACME Corp
+   <a href="acme.html"> About ACME Corp</a>&nbsp;&nbsp;&nbsp;
    </th>
    <th>
-    Contact US
+    Contact US&nbsp;&nbsp;&nbsp;
   </th>
   <th>
     <button>Sign Up</button>
@@ -77,16 +79,16 @@
 
 
       <main>
-       <p><strong>Sign Up</P></Strong>
+       <p><h3><strong>Sign Up</P></h3></Strong>
        <form action="http://acme.com/signup.php">
          <p>First Name:
-           <input type="text" name="first name" size="20" maxlength="30" />
+           <input type="text" name="first name" size="30" maxlength="40" value="John" />
          <p>Last Name:
-             <input type="text" name="Last name" size="20" maxlength="30" />
+             <input type="text" name="Last name" size="30" maxlength="40" value="Doe" />
          <p>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="Email" size="20" maxlength="30" />
+            <input type="text" name="Email" size="30" maxlength="40" value="john.doe@example.com"/>
          <p>Password:&nbsp;&nbsp;
-              <input type="text" name="password" size="20" maxlength="30" />
+              <input type="text" name="password" size="30" maxlength="40" />
             <br></br>
               <input type="checkbox" name="Agree to our terms of service" <p>Agree to our terms of service
             <br></br>
