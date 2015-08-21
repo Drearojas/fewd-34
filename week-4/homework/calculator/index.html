@@ -41,12 +41,13 @@
      return ((c * (9/5) + 32)
     }
 
-     function calcCircumference (r,c) {
-      return (2 * Math.PI * r);
+     function calcCircumference (r) {
+      return 2 * Math.PI * r
      }
 
      function calcLongestSide (a,b) {
-     return Math.sqrt((a * a) + (b * b));
+     var c = Math.sqrt((a * a) + (b * b))
+     return c
      }
 
     </script>
