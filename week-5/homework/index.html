@@ -49,18 +49,19 @@ body { font-family: sans-serif; }
   </p>
 
   <div id="image">
+    <img width="null" height="null" src="null">
   </div>
 
   <script>
   function addImage() {
-    var y=prompt("height")
-    var x=prompt("width")
-    var imagepath=prompt("image to add?");
-    var set=document.querySelector("image");
-    img.setAttribute("height", y);
-    img.setAttribute("width", x);
-    img.setAttribute("src", imagePath);
-    set.appendChild(image), z;
+    var url= prompt("What's the URL?")
+    var width= prompt("what is the width?")
+    var height= prompt("What is the height?")
+    var img= document.createElement("img")
+    document.querySelector("#image").appendChild(img)
+    img.setAttribute("width", width);
+    img.setAttribute("height", height);
+    img.setAttribute("src", url);
     }
   </script>
 </div>
@@ -68,7 +69,7 @@ body { font-family: sans-serif; }
 <div class="set">
   <h1>Set 3</h1>
 
-  <p id="make-me-bold">
+  <p id="make-me-bold" class>
     This paragraph is currently not bold. But there's a class <code>.bold</code>
     set up in the CSS. Add that class to this paragraph when this button below is clicked.
     Need something more ambitious? Make clicking toggle the <code>.bold</code> class.
@@ -80,10 +81,7 @@ body { font-family: sans-serif; }
 
   <script>
   function makeBold() {
-    var p=document.querySelector("#make-me-bold");
-    var button=document.querySelector("button");
-    button.addEventListner("click", makeBold);
-    p.classList.toggle("bold");
+    var p= document.querySelector("#make-me-bold").classList.toggle("bold")
   }
   </script>
 </div>
