@@ -104,16 +104,17 @@
     </main>
 
     <script>
-    var entertask= document.querySelector(".button")
-    entertask.addEventListener('click', addListItem);
+    var entercomment= document.querySelector(".button")
+    entercomment.addEventListener('click',addListItem);
 
     Function addListItem() {
       var like= document.querySelector('.startoflist');
       var item = document.createElement("li")
       var text = document.querySelector('.text').value;
 
-      item.textContent=text;
+        item.textContent=text;
         like.appendchild(item);
+        documet.getElementById("input").value="";
     }
 
 
