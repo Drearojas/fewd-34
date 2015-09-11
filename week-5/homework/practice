@@ -1,0 +1,11 @@
+function add () {
+ var e1 = document.querySelector(".-operand");
+ var e2 = document.querySelector(".second-operand placeholder");
+ var r1 = document.querySelector(".result");
+ var n = e1.value + e2.value;
+ var n1 = parseInt(e1.value);
+ var n2 = parseInt(e2.value);
+ r1.value = n1+n2;
+ var addButton = document.querySelector("add-button");
+ addButton.addEventListener ("click",add);
+}
