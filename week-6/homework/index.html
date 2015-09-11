@@ -116,6 +116,19 @@
         like.appendChild(item);
         document.getElementById("new-comment-body").value="";
     }
+    var likeCount=0;
+    var like= document.querySelector(".like-link");
+    like.addEventListener('click', likes);
+
+    function likes () {
+      likeCount++;
+      document.querySelector(".like-count").innerHTML=likeCount;
+
+      console.log(likeCount);
+
+
+    }
+
 
 
     </script>
