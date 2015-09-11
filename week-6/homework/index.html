@@ -104,17 +104,17 @@
     </main>
 
     <script>
-    var entercomment= document.querySelector(".button")
+    var entercomment= document.querySelector("button");
     entercomment.addEventListener('click',addListItem);
 
-    Function addListItem() {
-      var like= document.querySelector('.startoflist');
-      var item = document.createElement("li")
-      var text = document.querySelector('.text').value;
-
-        item.textContent=text;
-        like.appendchild(item);
-        documet.getElementById("input").value="";
+    function addListItem(e) {
+      e.preventDefault();
+      var like= document.getElementById('comments');
+      var item = document.createElement("li");
+      var text = document.querySelector("#new-comment-body").value;
+        item.innerHTML = text;
+        like.appendChild(item);
+        document.getElementById("new-comment-body").value="";
     }
 
 
