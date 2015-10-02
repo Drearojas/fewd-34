@@ -65,7 +65,7 @@ main {
 }
 footer {
   margin: auto;
-  
+
 }
 p {
   display: block;
@@ -85,19 +85,19 @@ body#aboutme .logo {
 }
 body#hours header {
   background-image: url("../images/friends.png");
-  height: 100px;
+  height: 200px;
   background-position: bottom center;
 
 }
 body#hours .logo {
-  margin: 50px;
+  margin: 150px;
 }
 body#bubbles header {
   background-image: url("../images/bubbles.png");
-  height: 100px;
+  height: 200px;
 }
 body#bubbles .logo {
-  margin: 60px;
+  margin: 150px;
 }
 p#bubbles {
   font-family: 'Abel', sans-serif;
