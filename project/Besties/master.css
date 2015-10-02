@@ -1,0 +1,104 @@
+html{
+  font-family: 'Abel', sans-serif;
+}
+
+body {
+  font-family: 'Abel', sans-serif;
+  background-repeat: repeat;
+  margin:auto;
+  text-align: center;
+}
+ header {
+   background-image: url('http://cdn.magdeleine.co/wp-content/uploads/2015/07/photo-1424896041628-083a222840f6-1400x2100.jpeg');
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:500px;
+   top: 0;
+   left: 0;
+}
+  table {
+    font-family: 'Abel', sans-serif;
+    display: inline;
+    margin-right: 30px;
+    margin-top: 40px;
+    padding-right: 60px;
+    /*font-family: Lucida;*/
+ }
+.logo{
+  height: 125px;
+  margin: 430px 0;
+  border-radius: 20px;
+}
+
+.header{
+  margin: auto;
+}
+main {
+  font-family: 'Abel', sans-serif;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin: 50px auto;
+}
+.button {
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: transparent;
+  color: grey;
+
+}
+ img.expand {
+   width: 950px;
+ }
+
+ a {
+   color: white;
+ }
+.foot {
+  height: 5px;
+  margin: 10px 0;
+  font-size: 5px;
+}
+footer {
+  margin: auto;
+  
+}
+p {
+  display: block;
+  /*margin-left: 100px;*/
+  /*margin-right: 200px;*/
+  /*font-family: 'Abel', sans-serif;*/
+  font-size: 20px;
+  padding: 20px;
+}
+body#aboutme header {
+  background-image: url('http://cdn.magdeleine.co/wp-content/uploads/2015/07/photo-1424896041628-083a222840f6-1400x2100.jpeg');
+  background-position:center;
+  height: 100px;
+}
+body#aboutme .logo {
+  margin: 35px;
+}
+body#hours header {
+  background-image: url("../images/friends.png");
+  height: 100px;
+  background-position: bottom center;
+
+}
+body#hours .logo {
+  margin: 50px;
+}
+body#bubbles header {
+  background-image: url("../images/bubbles.png");
+  height: 100px;
+}
+body#bubbles .logo {
+  margin: 60px;
+}
+p#bubbles {
+  font-family: 'Abel', sans-serif;
+}
